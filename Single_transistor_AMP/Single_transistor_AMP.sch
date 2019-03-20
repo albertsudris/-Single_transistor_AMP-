@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Single_transistor_AMP-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -20,7 +21,7 @@ P 1550 3750
 F 0 "J1" H 1470 3425 50  0000 C CNN
 F 1 "Conn_01x02" H 1470 3516 50  0000 C CNN
 F 2 "Connector:Banana_Jack_2Pin" H 1550 3750 50  0001 C CNN
-F 3 "~" H 1550 3750 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/5442895.pdf" H 1550 3750 50  0001 C CNN
 	1    1550 3750
 	-1   0    0    1   
 $EndComp
@@ -42,7 +43,7 @@ P 2650 3650
 F 0 "C1" V 2398 3650 50  0000 C CNN
 F 1 "1uF" V 2489 3650 50  0000 C CNN
 F 2 "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J" H 2688 3500 50  0001 C CNN
-F 3 "~" H 2650 3650 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/212/KEM_C1092_GOLDMAX_X8R-1101978.pdf" H 2650 3650 50  0001 C CNN
 	1    2650 3650
 	0    1    1    0   
 $EndComp
@@ -53,7 +54,7 @@ P 3500 4150
 F 0 "R1" H 3570 4196 50  0000 L CNN
 F 1 "1K" H 3570 4105 50  0000 L CNN
 F 2 "Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder" V 3430 4150 50  0001 C CNN
-F 3 "~" H 3500 4150 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/447/Yageo%20LR_CFR_2013-595289.pdf" H 3500 4150 50  0001 C CNN
 	1    3500 4150
 	1    0    0    -1  
 $EndComp
@@ -64,7 +65,7 @@ P 3500 3200
 F 0 "R2" H 3570 3246 50  0000 L CNN
 F 1 "4.7K" H 3570 3155 50  0000 L CNN
 F 2 "Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder" V 3430 3200 50  0001 C CNN
-F 3 "~" H 3500 3200 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/219/CF-6922.pdf" H 3500 3200 50  0001 C CNN
 	1    3500 3200
 	1    0    0    -1  
 $EndComp
@@ -75,7 +76,7 @@ P 4700 3200
 F 0 "R3" H 4770 3246 50  0000 L CNN
 F 1 "4.7K" H 4770 3155 50  0000 L CNN
 F 2 "Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder" V 4630 3200 50  0001 C CNN
-F 3 "~" H 4700 3200 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/219/CF-6922.pdf" H 4700 3200 50  0001 C CNN
 	1    4700 3200
 	1    0    0    -1  
 $EndComp
@@ -86,7 +87,7 @@ P 4700 4150
 F 0 "R4" H 4770 4196 50  0000 L CNN
 F 1 "1K" H 4770 4105 50  0000 L CNN
 F 2 "Resistor_SMD:R_1806_4516Metric_Pad1.57x1.80mm_HandSolder" V 4630 4150 50  0001 C CNN
-F 3 "~" H 4700 4150 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/447/Yageo%20LR_CFR_2013-595289.pdf" H 4700 4150 50  0001 C CNN
 	1    4700 4150
 	1    0    0    -1  
 $EndComp
@@ -137,7 +138,7 @@ P 5300 3450
 F 0 "C2" V 5048 3450 50  0000 C CNN
 F 1 "4.7uF" V 5139 3450 50  0000 C CNN
 F 2 "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J" H 5338 3300 50  0001 C CNN
-F 3 "~" H 5300 3450 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/281/Murata%20RPE%20Series-202940.pdf" H 5300 3450 50  0001 C CNN
 	1    5300 3450
 	0    1    1    0   
 $EndComp
@@ -153,7 +154,7 @@ P 6400 3450
 F 0 "J2" H 6480 3442 50  0000 L CNN
 F 1 "Conn_01x02" H 6480 3351 50  0000 L CNN
 F 2 "Connector:Banana_Jack_2Pin" H 6400 3450 50  0001 C CNN
-F 3 "~" H 6400 3450 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/5442895.pdf" H 6400 3450 50  0001 C CNN
 	1    6400 3450
 	1    0    0    -1  
 $EndComp
@@ -165,7 +166,7 @@ U 1 1 5C8A4D31
 P 6050 3650
 F 0 "#PWR0101" H 6050 3400 50  0001 C CNN
 F 1 "GND" H 6055 3477 50  0000 C CNN
-F 2 "" H 6050 3650 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 6050 3650 50  0001 C CNN
 F 3 "" H 6050 3650 50  0001 C CNN
 	1    6050 3650
 	1    0    0    -1  
@@ -180,7 +181,7 @@ U 1 1 5C8A53D6
 P 1850 4000
 F 0 "#PWR0102" H 1850 3750 50  0001 C CNN
 F 1 "GND" H 1855 3827 50  0000 C CNN
-F 2 "" H 1850 4000 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 1850 4000 50  0001 C CNN
 F 3 "" H 1850 4000 50  0001 C CNN
 	1    1850 4000
 	1    0    0    -1  
@@ -195,7 +196,7 @@ U 1 1 5C8A6666
 P 5500 3000
 F 0 "#PWR0103" H 5500 2850 50  0001 C CNN
 F 1 "VCC" H 5517 3173 50  0000 C CNN
-F 2 "" H 5500 3000 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 5500 3000 50  0001 C CNN
 F 3 "" H 5500 3000 50  0001 C CNN
 	1    5500 3000
 	1    0    0    -1  
@@ -211,7 +212,7 @@ U 1 1 5C8A72DF
 P 4700 4500
 F 0 "#PWR0104" H 4700 4250 50  0001 C CNN
 F 1 "GND" H 4705 4327 50  0000 C CNN
-F 2 "" H 4700 4500 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 4700 4500 50  0001 C CNN
 F 3 "" H 4700 4500 50  0001 C CNN
 	1    4700 4500
 	1    0    0    -1  
