@@ -56,7 +56,7 @@ F 1 "1K" H 3570 4105 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 3430 4150 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/447/Yageo%20LR_CFR_2013-595289.pdf" H 3500 4150 50  0001 C CNN
 	1    3500 4150
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R2
@@ -197,7 +197,7 @@ P 5500 3000
 F 0 "#PWR0103" H 5500 2850 50  0001 C CNN
 F 1 "VCC" H 5517 3173 50  0000 C CNN
 F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 5500 3000 50  0001 C CNN
-F 3 "" H 5500 3000 50  0001 C CNN
+F 3 "https://cdn.harwin.com/pdfs/M20-782.pdf" H 5500 3000 50  0001 C CNN
 	1    5500 3000
 	1    0    0    -1  
 $EndComp

@@ -1,0 +1,26 @@
+Info: Checking netlist symbol footprint “C1:/5C8A4481:Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm”.
+
+Info: Checking netlist symbol footprint “C2:/5C8A49AE:Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm”.
+
+Info: Checking netlist symbol footprint “C3:/5C8A45C3:Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm”.
+
+Info: Checking netlist symbol footprint “J1:/5C8A4169:TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm”.
+
+Info: Checking netlist symbol footprint “J2:/5C8A4C0A:TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm”.
+
+Info: Checking netlist symbol footprint “J3:/5CA9EAC4:”.
+
+Info: Checking netlist symbol footprint “Q1:/5C8A4236:Package_TO_SOT_THT:TO-92L”.
+
+Info: Checking netlist symbol footprint “R1:/5C8A44C2:Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal”.
+
+Info: Checking netlist symbol footprint “R2:/5C8A44F4:Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal”.
+
+Info: Checking netlist symbol footprint “R3:/5C8A4526:Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal”.
+
+Info: Checking netlist symbol footprint “R4:/5C8A456A:Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal”.
+
+Error: No footprint defined for symbol “J3”.
+
+Error: Cannot add new symbol “J3:/5CA9EAC4” due to missing footprint “”.
+

@@ -56,7 +56,7 @@ F 1 "1K" H 3570 4105 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 3430 4150 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/447/Yageo%20LR_CFR_2013-595289.pdf" H 3500 4150 50  0001 C CNN
 	1    3500 4150
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R2
@@ -89,7 +89,7 @@ F 1 "1K" H 4770 4105 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4630 4150 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/447/Yageo%20LR_CFR_2013-595289.pdf" H 4700 4150 50  0001 C CNN
 	1    4700 4150
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C C3
@@ -128,7 +128,6 @@ Wire Wire Line
 	4700 4000 4700 3900
 Wire Wire Line
 	4700 4000 5400 4000
-Connection ~ 4700 4000
 Wire Wire Line
 	4700 3500 4700 3450
 $Comp
@@ -249,4 +248,5 @@ $EndComp
 Wire Wire Line
 	5800 3050 5500 3050
 Connection ~ 5500 3050
+Connection ~ 4700 4000
 $EndSCHEMATC
