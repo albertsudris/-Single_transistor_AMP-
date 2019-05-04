@@ -1,0 +1,249 @@
+## Footprint report - date 05/04/19 10:55:50
+## Created by Pcbnew version kicad (5.0.0)
+## Unit = mm, Angle = deg.
+
+$BeginDESCRIPTION
+
+$BOARD
+upper_left_corner 93.834999 39.269999
+lower_right_corner 138.530001 69.950001
+$EndBOARD
+
+$MODULE "J1"
+reference "J1"
+value "Conn_01x02"
+footprint "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm"
+attribut none
+position 100.330000 55.880000  orientation 270.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  1.980000  3.960000  orientation 0.00
+drill  1.320000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position  5.000000  0.000000  size  1.980000  3.960000  orientation 0.00
+drill  1.320000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J1
+
+$MODULE "C1"
+reference "C1"
+value "1uF"
+footprint "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
+attribut none
+position 109.220000 55.880000  orientation 270.00
+layer front
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position  5.000000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C1
+
+$MODULE "C2"
+reference "C2"
+value "4.7uF"
+footprint "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
+attribut none
+position 123.190000 53.340000  orientation 90.00
+layer front
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position  5.000000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C2
+
+$MODULE "C3"
+reference "C3"
+value "22uF"
+footprint "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
+attribut none
+position 120.650000 55.960000  orientation 270.00
+layer front
+$PAD "2"
+Shape Circle Layer both
+position  5.000000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C3
+
+$MODULE "J2"
+reference "J2"
+value "Conn_01x02"
+footprint "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm"
+attribut none
+position 130.810000 55.880000  orientation 90.00
+layer front
+$PAD "2"
+Shape Oval Layer both
+position  5.000000  0.000000  size  1.980000  3.960000  orientation 0.00
+drill  1.320000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  1.980000  3.960000  orientation 0.00
+drill  1.320000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J2
+
+$MODULE "Q1"
+reference "Q1"
+value "2N2219"
+footprint "Package_TO_SOT_THT:TO-92L"
+attribut none
+position 114.300000 52.070000  orientation 90.00
+layer front
+$PAD "2"
+Shape Circle Layer both
+position  1.280000 -1.270000  size  1.300000  1.300000  orientation 90.00
+drill  0.750000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Circle Layer both
+position  2.540000  0.000000  size  1.300000  1.300000  orientation 90.00
+drill  0.750000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  1.300000  1.300000  orientation 90.00
+drill  0.750000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Q1
+
+$MODULE "R1"
+reference "R1"
+value "1K"
+footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+attribut none
+position 113.030000 63.500000  orientation 90.00
+layer front
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000  size  1.400000  1.400000  orientation 0.00
+drill  0.700000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position  7.620000  0.000000  size  1.400000  1.400000  orientation 0.00
+drill  0.700000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R1
+
+$MODULE "R2"
+reference "R2"
+value "4.7K"
+footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+attribut none
+position 109.220000 45.720000  orientation 270.00
+layer front
+$PAD "2"
+Shape Oval Layer both
+position  7.620000  0.000000  size  1.400000  1.400000  orientation 0.00
+drill  0.700000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000  size  1.400000  1.400000  orientation 0.00
+drill  0.700000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R2
+
+$MODULE "R3"
+reference "R3"
+value "4.7K"
+footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+attribut none
+position 119.380000 44.450000  orientation 270.00
+layer front
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000  size  1.400000  1.400000  orientation 0.00
+drill  0.700000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position  7.620000  0.000000  size  1.400000  1.400000  orientation 0.00
+drill  0.700000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R3
+
+$MODULE "R4"
+reference "R4"
+value "1K"
+footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+attribut none
+position 116.840000 63.500000  orientation 90.00
+layer front
+$PAD "2"
+Shape Oval Layer both
+position  7.620000  0.000000  size  1.400000  1.400000  orientation 0.00
+drill  0.700000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000  size  1.400000  1.400000  orientation 0.00
+drill  0.700000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R4
+
+$MODULE "J3"
+reference "J3"
+value "Screw_Terminal_01x02"
+footprint "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm"
+attribut none
+position 101.600000 43.180000  orientation 270.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  1.980000  3.960000  orientation 0.00
+drill  1.320000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position  5.000000  0.000000  size  1.980000  3.960000  orientation 0.00
+drill  1.320000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J3
+
+$EndDESCRIPTION

@@ -1,0 +1,20 @@
+Source,C:\Users\alber\Desktop\4md\Single_transistor_AMP\Single_transistor_AMP.sch
+Kicad Rev,Eeschema (5.0.0)
+Generated Date,04.05.2019 11:04:30
+
+Title,Not Set
+Company,Not Set
+Revision,Not Set
+Date Issue,Not Set
+
+Reference,Value,Library,Library Ref
+J1,Conn_01x02,Connector_Generic,Conn_01x02
+Q1,2N2219,Transistor_BJT,2N2219
+C1,1uF,Device,C
+R1,1K,Device,R
+R2,4.7K,Device,R
+R3,4.7K,Device,R
+R4,1K,Device,R
+C3,22uF,Device,C
+C2,4.7uF,Device,C
+J2,Conn_01x02,Connector_Generic,Conn_01x02
